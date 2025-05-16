@@ -1,3 +1,5 @@
+// Внимание! Это отладочная версия; не для демонстрации!
+
 #define _CRT_SECURE_NO_WARNINGS
 
 #include <iostream>
@@ -229,7 +231,7 @@ void print(Node* first) {
 
 int menu() {
     int choice;
-    wcout << L"\033[1mДобро пожаловать в чат-бот \033[32mNodeMaster!\033[0m" << endl << endl;
+    wcout << L"\033[1mДобро пожаловать в чат-бот \033[32mNodeMaster (Версия отладки)!\033[0m" << endl << endl;
     wcout << L"\n\033[36mМеню:\033[0m\n\n";
     wcout << L"1. Добавить/Обновить элемент\n\n";
     wcout << L"2. Вывести список\n\n";
